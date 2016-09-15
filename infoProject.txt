@@ -1,0 +1,45 @@
+// Perfil
+{
+  "name": "Shakira",
+  "id": "1",
+  "logo": "",
+  "imagen": "",
+  "genero": "Pop",
+  "discografia": "Sony",
+  "albums": "",
+  "canciones": ""
+}
+
+
+// Rutas
+{
+  "GET /artistas": {
+    "desc": "devuelve todo los artistas",
+    "response": "200 application/json",
+    "data": [{}, {}, {}]
+  },
+
+  "GET /artistas/:id": {
+    "desc": "devuelve un artista por id",
+    "response": "200 application/json",
+    "data": {}
+  },
+
+  "POST /artistas": {
+    "desc": "crea y devuelve el artista insertado",
+    "response": "201 application/json",
+    "data": {}
+  },
+
+  "PUT /artistas/:id": {
+    "desc": "modifica y devuelve el artista correspondiente",
+    "response": "200 application/json",
+    "data": {}
+  },
+
+  "DELETE /artistas/:id": {
+    "desc": "elimina y devuelve el artista correspondiente",
+    "response": "200 application/json",
+    "data": {}
+  }
+}
